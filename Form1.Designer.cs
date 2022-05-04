@@ -149,7 +149,6 @@ namespace CinemaProjectUSP
             this.panel1.Size = new System.Drawing.Size(943, 108);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox3
             // 
