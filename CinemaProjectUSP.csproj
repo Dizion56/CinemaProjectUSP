@@ -46,43 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuyTicketsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BuyTicketsForm.Designer.cs">
-      <DependentUpon>BuyTicketsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MostWatchedMoviesForm.cs">
+    <Compile Include="Movies Schedule Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MostWatchedMoviesForm.Designer.cs">
-      <DependentUpon>MostWatchedMoviesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MoviesScheduleForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MoviesScheduleForm.Designer.cs">
-      <DependentUpon>MoviesScheduleForm.cs</DependentUpon>
+    <Compile Include="Movies Schedule Form.Designer.cs">
+      <DependentUpon>Movies Schedule Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BuyTicketsForm.resx">
-      <DependentUpon>BuyTicketsForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MostWatchedMoviesForm.resx">
-      <DependentUpon>MostWatchedMoviesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MoviesScheduleForm.resx">
-      <DependentUpon>MoviesScheduleForm.cs</DependentUpon>
+    <EmbeddedResource Include="Movies Schedule Form.resx">
+      <DependentUpon>Movies Schedule Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

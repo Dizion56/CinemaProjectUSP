@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CinemaProjectUSP
@@ -34,35 +41,26 @@ namespace CinemaProjectUSP
         {
             Movies_Schedule_Form msf = new Movies_Schedule_Form();
             msf.Show();
-            Hide();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            BuyTicketsForm btf = new BuyTicketsForm();
-            btf.Show();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MostWatchedMoviesForm mwm = new MostWatchedMoviesForm();
-            mwm.Show();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
-        {
-            
         }
     }
 }
